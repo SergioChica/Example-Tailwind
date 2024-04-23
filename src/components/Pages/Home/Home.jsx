@@ -34,8 +34,15 @@ export const Home = () => {
                 date={newNotice.date}
                 description={newNotice.description}
               />
-            )).splice(1, 4)}
+            )).splice(1, 3)}
           </section>
+        </div>
+        <div>
+            <div>
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
         </div>
       </Main>
     </>
